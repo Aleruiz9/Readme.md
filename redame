@@ -1,0 +1,34 @@
+# RetailNow - Análisis de Rendimiento de Red de Tiendas Minoristas
+
+Proyecto de análisis de datos para la cadena ficticia **RetailNow** enfocado en la optimización del rendimiento comercial, rotación de inventarios y niveles de satisfacción del cliente mediante **Python**, **Pandas** y **NumPy**.
+
+---
+
+## 📋 Objetivos del Proyecto
+
+- **Procesamiento y Calidad de Datos:** Limpieza y estructuración de fuentes de datos (`ventas.csv`, `inventarios.csv`, `satisfaccion.csv`).
+- **Análisis Comercial:** Cálculo de ingresos totales por producto, categoría y tienda.
+- **Gestión de Inventario:** Identificación de sucursales con rotación crítica (< 10% de ventas sobre stock disponible).
+- **Control de Experiencia del Cliente:** Correlación entre volumen de ventas y satisfacción (< 60%).
+- **Modelado Estadístico y Simulación:** Cálculo de parámetros estadísticos fundamentales y simulación de ventas a 30 días mediante arrays estocásticos reproducibles en NumPy.
+
+---
+
+## 🛠️ Tecnologías Empleadas
+
+- **Python 3.x**
+- **Pandas:** Manipulación, agrupaciones (`groupby`), cruces (`merge`) y filtrado avanzado.
+- **NumPy:** Computación matricial, estadística descriptiva (`np.median`, `np.std`) y simulaciones con generador aleatorio.
+- **Jupyter Notebook / VS Code:** Entorno de ejecución interactivo.
+
+---
+
+## 📁 Estructura del Repositorio
+
+```text
+├── analisis_red_tiendas.ipynb   # Notebook principal con el desarrollo completo
+├── README.md                    # Documentación del proyecto
+├── /workspace/                  # Directorio de datos (rutas absolutas del entorno)
+│   ├── ventas.csv
+│   ├── inventarios.csv
+│   └── satisfaccion.csv
